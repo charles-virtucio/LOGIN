@@ -1,0 +1,33 @@
+<!-- Virtucio, Charles Adrian C. -->
+<html>
+
+<form action="postCV.php" method="POST">
+Last Name: <input type="text" name="lname" required>
+<br>
+First Name : <input type = "text" name="fname" required>
+<br>
+Username: 
+<input type="text" name="uname" required>
+<br>
+Password:
+<input type="password" name="pw" required><br>
+Course: <br><input type="radio" name="course" value="BSIT">Bachelor of Science in Information Technology
+<br>
+<input type="radio" name="course" value="BSCS">Bachelor of Science in Computer Science
+<br>
+Gender:
+<select name="gender">
+    <option value=0>--Please Select--</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select><br>
+Programming Languages: <br>
+<input type="checkbox" name= 'pl[]' value="C#">C#
+<input type="checkbox" name= 'pl[]' value="JAVA">JAVA
+<input type="checkbox" name= 'pl[]' value="Python">Python
+<br>
+<input type="Submit" value="Register">
+<input type="reset" value="Clear">
+
+</form>
+</html>
